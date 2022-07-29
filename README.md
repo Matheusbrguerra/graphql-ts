@@ -16,7 +16,11 @@ npx knex migration:latest
 npx knex migration:rollback
 ```
 #### Caso não dê certo o Login certifique-se que a propriedade do driver allowPublicKeyRetrival esteja setada como true
-#### Use o código abaixo caso o seu MySQL não encontre sua permissão:
+#### Use o código abaixo em uma query no SQL do SGDB de sua preferência caso o seu MySQL não encontre sua permissão:
 ```
 ALTER USER 'root' IDENTIFIED WITH mysql_native_password BY 'password';
+```
+#### Use o código abaixo no terminal para rodar a aplicação:
+```
+npm run dev
 ```
