@@ -2,6 +2,10 @@
 
 ## :construction: Projeto em construção :construction:
 
+#### Instale as dependencias com o comando abaixo dentro do diretório clonado: 
+```
+npm i
+```
 #### Inicie o banco de dados com o comando abaixo: 
 ```
 docker-compose up 
